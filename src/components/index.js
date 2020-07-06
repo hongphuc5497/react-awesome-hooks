@@ -1,5 +1,6 @@
-import TimerFiveSeconds from './TimerFiveSeconds';
-import MoneyCount from './MoneyCount';
-import HitBox from './HitBox';
+import TimerFiveSeconds from "./TimerFiveSeconds";
+import MoneyCount from "./MoneyCount";
+import HitBox from "./HitBox";
+import HitBoxOutSide from "./HitBoxOutSide";
 
-export { TimerFiveSeconds, MoneyCount, HitBox }
+export { TimerFiveSeconds, MoneyCount, HitBox, HitBoxOutSide };

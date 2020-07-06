@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-
-import { TimerFiveSeconds, MoneyCount, HitBox } from './components';
+import { TimerFiveSeconds, MoneyCount, HitBox, HitBoxOutSide } from './components';
 
 function App() {
   return (
@@ -12,7 +11,10 @@ function App() {
       <MoneyCount />
       <hr />
 
-      <HitBox onClickInside={() => alert('hit the box')}/>
+      <HitBox onClickInside={() => alert('hit the box inside')}/>
+      <hr />
+
+      <HitBoxOutSide onClickOutSide={() => alert(`hit the box outside`)} />
       <hr />
     </div>
   );
