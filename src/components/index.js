@@ -1,3 +1,4 @@
 import TimerFiveSeconds from './TimerFiveSeconds';
+import MoneyCount from './MoneyCount';
 
-export { TimerFiveSeconds }
+export { TimerFiveSeconds, MoneyCount }

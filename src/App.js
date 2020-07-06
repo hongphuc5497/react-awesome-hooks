@@ -1,12 +1,18 @@
 import React from 'react';
 import './App.css';
 
-import { TimerFiveSeconds } from './components';
+import { TimerFiveSeconds, MoneyCount } from './components';
 
 function App() {
   return (
     <div className="App">
       <TimerFiveSeconds />
+      <hr/>
+
+      <MoneyCount />
+      <hr />
+
+      
     </div>
   );
 }
