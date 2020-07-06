@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { TimerFiveSeconds, MoneyCount, HitBox, HitBoxOutSide } from './components';
+import { TimerFiveSeconds, MoneyCount, HitBox, HitBoxOutSide, FetchPerson, ResourceCounter } from './components';
 
 function App() {
   return (
@@ -15,6 +15,12 @@ function App() {
       <hr />
 
       <HitBoxOutSide onClickOutSide={() => alert(`hit the box outside`)} />
+      <hr />
+
+      <FetchPerson />
+      <hr />
+
+      <ResourceCounter />
       <hr />
     </div>
   );
