@@ -5,6 +5,7 @@ import HitBoxOutSide from "./HitBoxOutSide";
 import FetchPerson from "./FetchPerson";
 import ResourceCounter from "./ResourceCounter";
 import MountComponent from "./MountComponent";
+import UnMountComponent from "./UnMountComponent";
 
 export {
 	TimerFiveSeconds,
@@ -14,4 +15,5 @@ export {
 	FetchPerson,
 	ResourceCounter,
 	MountComponent,
+	UnMountComponent,
 };

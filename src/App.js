@@ -7,7 +7,8 @@ import {
 	HitBoxOutSide,
 	FetchPerson,
 	ResourceCounter,
-	MountComponent,
+  MountComponent,
+  UnMountComponent
 } from "./components";
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
 			<hr/>
 
       <MountComponent />
+      <hr/>
+
+      <UnMountComponent />
       <hr/>
 		</div>
 	);
