@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { TimerFiveSeconds, MoneyCount } from './components';
+import { TimerFiveSeconds, MoneyCount, HitBox } from './components';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <MoneyCount />
       <hr />
 
-      
+      <HitBox onClickInside={() => alert('hit the box')}/>
+      <hr />
     </div>
   );
 }
